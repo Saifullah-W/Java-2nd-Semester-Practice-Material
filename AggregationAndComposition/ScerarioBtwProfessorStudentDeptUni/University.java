@@ -2,7 +2,7 @@ package AggregationAndComposition.ScerarioBtwProfessorStudentDeptUni;
 
 import java.util.ArrayList;
 
-public class University {
+public class  University {
      String uniname;
      ArrayList<Professor> profs = new ArrayList<Professor>();
      ArrayList<Department> depts = new ArrayList<Department>();

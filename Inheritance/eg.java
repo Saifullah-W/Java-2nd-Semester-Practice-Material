@@ -30,10 +30,10 @@ class child2 extends parent{
 public class eg {
     public static void main(String[] args) {
         parent p1 = new parent(340);
-//        child1 c1 = new child1("Saif ", 300);
-//        child2 c2 = new child2("Ali ",500);
-//        c1.display();
-//        c2.display();
+        child1 c1 = new child1("Saif ", 300);
+        child2 c2 = new child2("Ali ",400);
+        c1.display();
+        c2.display();
 
 //        parent p2 = new child1("saif",1200);
 //        System.out.println(p1.income);

@@ -47,6 +47,11 @@ public class Box<T,F>{
     public T items;
     public F fruit;
 
+    Box(T items, F fruit){
+        this.items=items;
+        this.fruit=fruit;
+    }
+
     public void setItems(T items){
         this.items = items;
     }
@@ -61,10 +66,12 @@ public class Box<T,F>{
     }
 
     public static void main(String[] args) {
-        Box<Integer,String> box = new Box<>();
-        box.setItems(23);
-        box.setFruit("Banana");
-        System.out.println(box.getItems());
-        System.out.println(box.getFruit());
+        Box<Integer,String> box = new Box<>(23,"Apple");
+//        box.setItems(23);
+//        box.setFruit("Banana");
+//        System.out.println(box.getItems());
+//        System.out.println(box.getFruit());
+        System.out.println(box.items);
+        System.out.println(box.fruit);
     }
 }

@@ -37,12 +37,11 @@ class Duck extends Flying{
         System.out.println("Duck is flying");
     }
 
+
 }
 public class multipleInheritance{
     public static void main(String[] args) {
         Duck duck = new Duck();
         duck.fly();
     }
-
-
 }
